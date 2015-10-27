@@ -2443,6 +2443,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				WARNING_CFLAGS = "-Wobjc-missing-property-synthesis";
 			};
 			name = Debug;
 		};
@@ -2450,6 +2452,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				WARNING_CFLAGS = "-Wobjc-missing-property-synthesis";
 			};
 			name = Release;
 		};
